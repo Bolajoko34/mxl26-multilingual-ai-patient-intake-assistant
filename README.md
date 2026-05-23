@@ -11,10 +11,10 @@ Many patients in Ghanaian healthcare facilities speak little or no English. This
 ## What MxL26 Does
 * Greets patients and asks for their preferred language before starting.
 * Collects intake information in this order: hospital card status, patient type, health insurance, reason for visit, age, location, occupation, marital status, symptoms, medicines taken, allergies, and urgent warning signs.
-* Detects emergencies. If a patient mentions difficulty breathing, chest pain, severe bleeding, fainting, or seizures, MxL stops the intake and directs staff to attend to the patient immediately.
+* Detects emergencies. If a patient mentions difficulty breathing, chest pain, severe bleeding, fainting, or seizures, MxL26 stops the intake and directs staff to attend to the patient immediately.
 * Flags unaccompanied minors and alerts staff before continuing.
 * Handles patients who stop responding by prompting once, then alerting staff.
-* Redirects medical questions. If a patient asks for a diagnosis or prescription, MxL acknowledges them and redirects to a healthcare worker.
+* Redirects medical questions. If a patient asks for a diagnosis or prescription, MxL26 acknowledges them and redirects to a healthcare worker.
 * Generates a structured intake summary at the end of every session for healthcare staff to review.
 
 ## Sample Intake Summary Output
@@ -53,7 +53,7 @@ Generative AI, Prompt Engineering, Vapi
 
 Project Structure
 README.md | Project documentation
-system_prompt.md | Full MxL system prompt
+system_prompt.md | Full MxL26 system prompt
 sample_output.md | Example intake summary
 
 Current Limitations
